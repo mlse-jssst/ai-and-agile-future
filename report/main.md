@@ -2,6 +2,9 @@
 title: 2030年のAIとアジャイル レポート
 version: v0
 date: 2025-11-09
+authors:
+  - 今井健男（ぼのたけ/国立情報学研究所）
+  - 渡辺知恵美（筑波技術大学）
 license: "CC BY-ND 4.0"
 license_url: "https://creativecommons.org/licenses/by-nd/4.0/deed.ja"
 ---
@@ -179,4 +182,4 @@ DORAレポートやStefan Wolpers氏が力強く示すように、AIは組織の
 
 [7] Stefan Wolpers, "The Agile AI Manifesto," Scrum.org Blog, 2025年10月5日. Available: https://www.scrum.org/resources/blog/agile-ai-manifesto
 
-[8] Ryutaro Yoshiba, "生成AIでスクラムによる開発はどう変わるか", SlideShare, 2025年10月17日. Available: https://slide.meguro.ryuzee.com/slides/127
+[8] 吉羽龍太郎, "生成AIでスクラムによる開発はどう変わるか", SlideShare, 2025年10月17日. Available: https://slide.meguro.ryuzee.com/slides/127

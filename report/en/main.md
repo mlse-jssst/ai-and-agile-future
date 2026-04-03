@@ -2,6 +2,9 @@
 title: "The Report on AI and Agile in 2030"
 version: v0
 date: 2025-11-09
+authors:
+    - Takeo Imai (Bonotake/National Institute of Informatics)
+    - Chiemi Watanabe (Tsukuba University of Technology)
 license: "CC BY-ND 4.0"
 license_url: "https://creativecommons.org/licenses/by-nd/4.0/deed.ja"
 ---
