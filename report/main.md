@@ -2,6 +2,8 @@
 title: 2030年のAIとアジャイル レポート
 version: v0
 date: 2025-11-09
+license: "CC BY-ND 4.0"
+license_url: "https://creativecommons.org/licenses/by-nd/4.0/deed.ja"
 ---
 
 # 2030年のAIとアジャイル レポート
@@ -171,7 +173,7 @@ DORAレポートやStefan Wolpers氏が力強く示すように、AIは組織の
 
 [4] National Institute of Standards and Technology (NIST), "Secure Software Development, Security, and Operations (DevSecOps) Practices," NIST Special Publication 1800-44A, 2025年7月30日. Available: https://www.nccoe.nist.gov/sites/default/files/2025-07/nist-sp-1800-44a-ipd.pdf
 
-[4] Jennifer Riggins, "Will AI replace the agile coach?" LeadDev, 2025. Available: https://leaddev.com/communication/will-ai-replace-the-agile-coach
+[5] Jennifer Riggins, "Will AI replace the agile coach?" LeadDev, 2025. Available: https://leaddev.com/communication/will-ai-replace-the-agile-coach
 
 [6] Dave West, "AI – A Valuable Teammate in Product Ownership," Scrum.org Blog, 2025年6月26日. Available: https://www.scrum.org/resources/blog/ai-valuable-teammate-product-ownership
 

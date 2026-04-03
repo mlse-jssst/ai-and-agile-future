@@ -1,0 +1,47 @@
+name: Build PDF
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    container:
+      image: pandoc/latex:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Japanese fonts
+        run: |
+          apk add --no-cache \
+            font-noto-cjk \
+            font-noto \
+            fontconfig
+          fc-cache -fv
+
+      - name: Build main report PDF
+        run: |
+          pandoc report/main.md \
+            --pdf-engine=xelatex \
+            --variable mainfont="Noto Sans CJK JP" \
+            --variable CJKmainfont="Noto Sans CJK JP" \
+            --variable geometry="margin=2.5cm" \
+            --variable fontsize=11pt \
+            --variable documentclass=article \
+            --variable lang=ja \
+            --toc \
+            -o ai-and-agile-future-${{ github.ref_name }}.pdf
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ai-and-agile-future-${{ github.ref_name }}.pdf
+          generate_release_notes: false
+          body: |
+            ## 2030年のAIとアジャイル ${{ github.ref_name }}
+
+            - [レポート本文](https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/report/main.md)
