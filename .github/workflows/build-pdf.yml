@@ -8,31 +8,33 @@ on:
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
-    container:
-      image: pandoc/latex:latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Japanese fonts
+      - name: Install dependencies
         run: |
-          apk add --no-cache \
-            font-noto-cjk \
-            font-noto \
-            fontconfig
+          sudo apt-get update
+          sudo apt-get install -y \
+            pandoc \
+            texlive-xetex \
+            texlive-lang-cjk \
+            texlive-fonts-recommended \
+            texlive-fonts-extra \
+            fonts-noto-cjk
           fc-cache -fv
 
       - name: Build main report PDF
         run: |
           pandoc report/main.md \
             --pdf-engine=xelatex \
-            --variable mainfont="Noto Sans CJK JP" \
-            --variable CJKmainfont="Noto Sans CJK JP" \
-            --variable geometry="margin=2.5cm" \
-            --variable fontsize=11pt \
-            --variable documentclass=article \
-            --variable lang=ja \
+            -V CJKmainfont="Noto Sans CJK JP" \
+            -V mainfont="Noto Sans CJK JP" \
+            -V geometry="margin=2.5cm" \
+            -V fontsize=11pt \
+            -V documentclass=article \
+            -V lang=ja \
             --toc \
             -o ai-and-agile-future-${{ github.ref_name }}.pdf
 
