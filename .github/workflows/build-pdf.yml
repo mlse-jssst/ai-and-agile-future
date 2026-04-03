@@ -20,6 +20,7 @@ jobs:
             pandoc \
             texlive-xetex \
             texlive-lang-cjk \
+            texlive-lang-chinese \
             texlive-fonts-recommended \
             texlive-fonts-extra \
             fonts-noto-cjk
