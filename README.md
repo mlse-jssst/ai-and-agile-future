@@ -1,6 +1,6 @@
 # 2030年のAIとアジャイル レポート
 
-**最新版: v0（発行予定）**
+**最新版: v0**
 
 [レポートを読む](report/main.md) | [PDF版](https://github.com/mlse-jssst/ai-and-agile-future/releases/latest) | [英語版](report/en/main.md)
 
@@ -31,4 +31,6 @@
 
 ## ライセンス
 
-[CC BY-ND 4.0](LICENSE) — 表示・改変禁止。ただし、著作権法上適切な範囲で引用することなどを妨げるものではありません。
+[CC BY-ND 4.0](LICENSE) — 表示・改変禁止
+
+ただし、著作権法上適切な範囲で引用することなどを妨げるものではありません。
