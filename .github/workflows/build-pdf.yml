@@ -29,6 +29,7 @@ jobs:
       - name: Build main report PDF
         run: |
           pandoc report/main.md \
+            --template=.pandoc/template.tex \
             --pdf-engine=xelatex \
             -V CJKmainfont="Noto Sans CJK JP" \
             -V mainfont="Noto Sans CJK JP" \
@@ -39,12 +40,28 @@ jobs:
             --toc \
             -o ai-and-agile-future-${{ github.ref_name }}.pdf
 
+      - name: Build English report PDF
+        run: |
+          pandoc report/en/main.md \
+            --template=.pandoc/template.tex \
+            --pdf-engine=xelatex \
+            -V mainfont="Noto Sans" \
+            -V geometry="margin=2.5cm" \
+            -V fontsize=11pt \
+            -V documentclass=article \
+            -V lang=en \
+            --toc \
+            -o ai-and-agile-future-${{ github.ref_name }}-en.pdf
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: ai-and-agile-future-${{ github.ref_name }}.pdf
+          files: |
+            ai-and-agile-future-${{ github.ref_name }}.pdf
+            ai-and-agile-future-${{ github.ref_name }}-en.pdf
           generate_release_notes: false
           body: |
             ## 2030年のAIとアジャイル ${{ github.ref_name }}
 
-            - [レポート本文](https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/report/main.md)
+            - [レポート](https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/report/main.md)
+            - [Report (English Version)](https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/report/en/main.md)
