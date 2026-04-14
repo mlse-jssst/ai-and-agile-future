@@ -45,7 +45,8 @@ jobs:
           pandoc report/en/main.md \
             --template=.pandoc/template.tex \
             --pdf-engine=xelatex \
-            -V mainfont="Noto Sans" \
+            -V mainfont="Noto Sans CJK JP" \
+            -V CJKmainfont="Noto Sans CJK JP" \
             -V geometry="margin=2.5cm" \
             -V fontsize=11pt \
             -V documentclass=article \

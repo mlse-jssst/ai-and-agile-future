@@ -410,8 +410,8 @@ AIは増幅器である。何を増幅するかは、我々自身の選択にか
 本レポートの作成にあたり、以下のインタビューを実施した。これらのインタビュー記録は本レポートとともに公開されている。
 
 - 牛尾剛氏：2026年2月20日、MLSE冬合宿2026 公開インタビュー
-  - https://github.com/mlse-jssst/ai-and-agile-wip/blob/main/draft/research/v1/interview-20260220-ushio.md
+  - https://github.com/mlse-jssst/ai-and-agile-future/blob/v1.1/research/v1/interview-20260220-ushio.md
 - 吉羽龍太郎氏：2026年3月23日
-  - https://github.com/mlse-jssst/ai-and-agile-wip/blob/main/draft/research/v1/interview-20260323-ryuzee.md
+  - https://github.com/mlse-jssst/ai-and-agile-future/blob/v1.1/research/v1/interview-20260323-ryuzee.md
 - 漆原茂氏：2026年3月27日
-  - https://github.com/mlse-jssst/ai-and-agile-wip/blob/main/draft/research/v1/interview-article-20260327-urushibara.md
+  - https://github.com/mlse-jssst/ai-and-agile-future/blob/v1.1/research/v1/interview-article-20260327-urushibara.md

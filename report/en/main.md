@@ -407,8 +407,8 @@ AI is an amplifier. What it amplifies depends on our own choices. Will it amplif
 The following interviews were conducted for the preparation of this report. These interview records are published alongside this report.
 
 - Tsuyoshi Ushio: Feb 20, 2026, Public Interview at MLSE Winter Camp 2026
-  - https://github.com/mlse-jssst/ai-and-agile-wip/blob/main/draft/research/v1/interview-20260220-ushio.md
+  - https://github.com/mlse-jssst/ai-and-agile-future/blob/v1.1/research/v1/interview-20260220-ushio.md
 - Ryutaro Yoshiba: Mar 23, 2026
-  - https://github.com/mlse-jssst/ai-and-agile-wip/blob/main/draft/research/v1/interview-20260323-ryuzee.md
+  - https://github.com/mlse-jssst/ai-and-agile-future/blob/v1.1/research/v1/interview-20260323-ryuzee.md
 - Shigeru Urushibara: Mar 27, 2026
-  - https://github.com/mlse-jssst/ai-and-agile-wip/blob/main/draft/research/v1/interview-article-20260327-urushibara.md
+  - https://github.com/mlse-jssst/ai-and-agile-future/blob/v1.1/research/v1/interview-article-20260327-urushibara.md
