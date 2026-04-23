@@ -1,7 +1,7 @@
 ---
 title: 2030年のAIとアジャイル レポート
-version: v1.2
-date: 2026-04-15
+version: v1.3
+date: 2026-04-23
 organization: 日本ソフトウェア科学会 機械学習工学研究会 AIとアジャイルWG
 authors:
   - 今井健男（ぼのたけ/国立情報学研究所）

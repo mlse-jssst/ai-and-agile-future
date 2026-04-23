@@ -1,7 +1,7 @@
 ---
 title: "The Report on AI and Agile in 2030"
-version: v1.2
-date: 2026-04-15
+version: v1.3
+date: 2026-04-23
 organization: Working Group on AI and Agile, SIG on Machine Learning Systems Engineering, JSSST
 authors:
     - Takeo Imai (Bonotake/National Institute of Informatics)
